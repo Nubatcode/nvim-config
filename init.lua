@@ -1,0 +1,8 @@
+require("vim._core.ui2").enable({})
+
+require('config.options')
+require('config.keymaps')
+require('config.commands')
+require('plugin.pack')
+
+vim.cmd.colorscheme("gruvbox")

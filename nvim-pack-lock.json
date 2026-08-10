@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "gruvbox": {
+      "rev": "5d15b2765f59754d7ac263c88a0f6e3e58124951",
+      "src": "https://github.com/morhetz/gruvbox"
+    }
+  }
+}
