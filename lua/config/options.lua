@@ -1,5 +1,3 @@
-vim.g.netrw_banner = 0
-
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -26,6 +24,8 @@ vim.opt.backup = faslse
 vim.opt.undodir = vim.fn.stdpath("data") .. "/undodir"
 vim.opt.undofile = true
 
+vim.opt.completeopt = "menuone,noselect,fuzzy,nosort"
+vim.opt.shortmess:append("c")
 vim.opt.clipboard:append("unnamedplus")
 vim.opt.isfname:append("@-@")
 vim.opt.guicursor = ""
