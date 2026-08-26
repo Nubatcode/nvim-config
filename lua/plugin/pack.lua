@@ -1,5 +1,5 @@
 vim.pack.add({
-    "https://github.com/morhetz/gruvbox",
+    "https://github.com/ellisonleao/gruvbox.nvim",
     "https://github.com/nvim-mini/mini.nvim",
     "https://github.com/rafamadriz/friendly-snippets",
     { src = "https://github.com/nvim-treesitter/nvim-treesitter", branch = "main" },
@@ -9,6 +9,8 @@ vim.pack.add({
     'https://github.com/nvim-tree/nvim-web-devicons',
     'https://github.com/nvim-lualine/lualine.nvim',
 })
+--- gruvbox ---
+require('gruvbox').setup()
 
 --- luabar theme ---
 require('lualine').setup { options = { theme = 'gruvbox' } }
